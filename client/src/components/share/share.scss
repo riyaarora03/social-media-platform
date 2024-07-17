@@ -1,0 +1,171 @@
+@import "../../style.scss";
+
+.share {
+  @include themify($themes) {
+    -webkit-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+    box-shadow: 0px 0px 25px -10px rgba(0, 0, 0, 0.38);
+    border-radius: 20px;
+    background-color: themed("bg");
+    color: themed("textColor");
+    margin-bottom: 20px;
+
+    .container {
+      padding: 20px;
+
+      .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          flex: 3;
+          
+          img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+
+          input {
+            border: none;
+            outline: none;
+            padding: 20px 10px;
+            background-color: transparent;
+            width: 60%;
+            color: themed("textColor");
+          }
+        }
+
+        .right {
+          flex: 1;
+          display: flex;
+          justify-content: flex-end;
+
+          .filePreview {
+            position: relative;
+
+            .file {
+              width: 140px;
+              height: 140px;
+              object-fit: cover;
+              border-radius: 0px;
+            }
+            .removeImage {
+              position: absolute;
+              top: 0;
+              right: 0;
+              background: rgba(0, 0, 0, 0.6);
+              color: white;
+              border: none;
+              cursor: pointer;
+              font-size: 14px;
+              width: 24px;
+              height: 24px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+
+      hr {
+        margin: 20px 0px;
+        border: none;
+        height: 0.5px;
+        background-color: themed("border");
+      }
+
+      .bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+
+          .item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+
+            img {
+              height: 20px;
+            }
+
+            span {
+              font-size: 14px;
+              color: gray;
+            }
+          }
+
+          .dropdown {
+            margin-top: 10px;
+            max-height: 200px;
+            overflow-y: auto;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+            padding: 10px;
+
+            .friendBox {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              padding: 8px;
+              background-color: #f0f0f0; // Original color
+              border-radius: 4px;
+              margin-bottom: 5px;
+              cursor: pointer;
+            
+              &:hover {
+                background-color: #FF0080; // Hover color
+                color: white;
+              }
+            
+              &.tagged {
+                background-color: #FF0080; // Tagged color
+                color: white;
+              }
+
+              .removeTag{
+                margin-left: 20px;
+              }
+            }                  
+          }
+        }
+
+        .right {
+          button {
+            border: none;
+            padding: 10px;
+            color: white;
+            cursor: pointer;
+            background-color: #FF0080;
+            border-radius: 3px;
+          }
+        }
+      }
+
+      .taggedFriends {
+        .taggedFriend {
+          display: inline-block;
+          background-color: #f0f0f0;
+          padding: 5px 10px;
+          border-radius: 4px;
+          margin: 5px;
+        }
+      }
+    }
+  }
+}

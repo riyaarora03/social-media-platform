@@ -1,0 +1,132 @@
+.login {
+    height: 100vh;
+    background-color: #ff0080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; // Add padding for smaller screens
+  
+    .card {
+      background-color: white;
+      width: 100%; // Make it full width on smaller screens
+      max-width: 800px; // Add max-width for larger screens
+      height: auto; // Allow height to adjust
+      display: flex;
+      flex-direction: column; // Change to column layout on smaller screens
+      border-radius: 15px;
+      overflow: hidden;
+  
+      @media (min-width: 620px) {
+        flex-direction: row; // Change to row layout on larger screens
+        height: auto; // Adjust height for larger screens
+      }
+  
+      .left, .right {
+        flex: 1;
+      }
+  
+      .left {
+        display: flex;
+        flex-direction: column;
+        gap: 20px; // Reduce gap for smaller screens
+        justify-content: center;
+        color: white;
+        background: linear-gradient(rgb(69, 64, 64, 0.5), rgb(69, 64, 64, 0.5)), url("https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=800") center;
+        background-size: cover;
+        padding: 20px; // Reduce padding for smaller screens
+        text-align: center; // Center text
+  
+        @media (min-width: 620px) {
+          padding: 50px; // Increase padding for larger screens
+        }
+  
+        h1 {
+          font-size: 32px; // Adjust font size for smaller screens
+          line-height: 40px; // Adjust line height for smaller screens
+  
+          @media (min-width: 620px) {
+            font-size: 80px; // Increase font size for larger screens
+            line-height: 100px; // Increase line height for larger screens
+          }
+        }
+  
+        p, span {
+          font-size: 14px; // Adjust font size for smaller screens
+          word-wrap: break-word; // Ensure text wraps
+  
+          @media (min-width: 620px) {
+            font-size: 16px; // Increase font size for larger screens
+          }
+        }
+  
+        button {
+          width: 100%; // Make button full width on smaller screens
+          background-color: white;
+          color: #ff0080;
+          border: none;
+          padding: 10px;
+          border-radius: 3px;
+          font-weight: bold;
+          cursor: pointer;
+  
+          @media (min-width: 620px) {
+            width: 50%; // Adjust width for larger screens
+          }
+        }
+      }
+  
+      .right {
+        padding: 20px; // Reduce padding for smaller screens
+        display: flex;
+        flex-direction: column;
+        gap: 20px; // Reduce gap for smaller screens
+        justify-content: center;
+  
+        @media (min-width: 620px) {
+          padding: 50px; // Increase padding for larger screens
+          gap: 40px; // Increase gap for larger screens
+        }
+  
+        h1 {
+          color: rgb(54, 53, 53);
+          font-size: 24px; // Adjust font size for smaller screens
+  
+          @media (min-width: 620px) {
+            font-size: 32px; // Increase font size for larger screens
+          }
+        }
+  
+        form {
+          display: flex;
+          flex-direction: column;
+          gap: 20px; // Reduce gap for smaller screens
+  
+          @media (min-width: 620px) {
+            gap: 40px; // Increase gap for larger screens
+          }
+  
+          input {
+            padding: 10px;
+            border-width: 0px 0px 1px 0px;
+            border-bottom: 1px solid lightgray;
+          }
+  
+          button {
+            padding: 10px;
+            width: 100%; // Make button full width on smaller screens
+            background-color: #f53b98;
+            border: none;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 3px;
+  
+            @media (min-width: 620px) {
+              width: 50%; // Adjust width for larger screens
+            }
+          }
+        }
+      }
+    }
+  }
+  

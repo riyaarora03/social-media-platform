@@ -1,0 +1,127 @@
+@import "../../style.scss";
+
+.navbar {
+    @include themify($themes) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+        height: 50px;
+        border-bottom: 1px solid themed("border");
+        position: sticky;
+        top: 0;
+        background-color: themed("bg");
+        color: themed("textColor");
+        z-index: 100;
+
+        .left {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            span {
+                font-weight: bold;
+                font-size: 20px;
+                color: themed("logo");
+            }
+
+            .search {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                border: 1px solid themed("border");
+                border-radius: 5px;
+                padding: 5px;
+                position: relative;
+
+                input {
+                    border: none;
+                    width: 500px;
+                    background-color: transparent;
+                    color: themed("textColor");
+
+                    @include mobile {
+                        display: none;
+                    }
+
+                    @include tablet {
+                        width: 200px;
+                    }
+                }
+
+                .searchResults {
+                    position: absolute;
+                    top: 40px;
+                    left: 0;
+                    width: 100%;
+                    background-color: #FF0080;
+                    color: white;
+                    border: 1px solid themed("border");
+                    border-radius: 5px;
+                    max-height: 300px;
+                    overflow-y: auto;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                    z-index: 1000; /* Ensure the search results are on top */
+                    padding: 5px; /* Add padding for better spacing */
+
+                    .searchResult {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        padding: 10px;
+                        cursor: pointer;
+                        transition: background-color 0.2s;
+
+                        &:hover {
+                            background-color: themed("hoverBg");
+                        }
+
+                        img {
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                            object-fit: cover;
+                        }
+
+                        span {
+                            color: themed("textColor");
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+
+        .right {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            @include mobile {
+                display: none;
+            }
+
+            .user {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                @include tablet {
+                    display: none;
+                }
+
+                img {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    border: 1px solid black;
+                }
+
+                span {
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
