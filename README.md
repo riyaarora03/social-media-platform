@@ -27,8 +27,8 @@ A comprehensive social networking site with features that make it easy and engag
     News Feed: Stay updated with the latest posts and activities from your network.    
     Multimedia Sharing: Share photos, videos, and other media effortlessly.    
     Explore Page with Infinite Scroll Functionality: Discover endless content tailored to your interests.    
-    Real-time Updates: Receive instant notifications and updates for a dynamic experience.    
-    Content Recommendations: Enjoy personalized content suggestions based on your preferences and activities.    
+    Real-time Updates: Receive updates for a dynamic experience.    
+    Content Recommendations: Enjoy personalized content suggestions.    
 
 
 ### 💻 TECHNOLOGY STACK
