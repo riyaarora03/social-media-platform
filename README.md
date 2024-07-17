@@ -10,6 +10,15 @@
 ## Social Media Web Application
 A comprehensive social networking site with features that make it easy and engaging to connect and share with friends.
 
+<img width="1374" alt="Screenshot 2024-07-17 at 6 50 20 PM" src="https://github.com/user-attachments/assets/30b63b06-bd99-48f9-86d9-7951fce8b667">
+<img width="1374" alt="Screenshot 2024-07-17 at 6 45 51 PM" src="https://github.com/user-attachments/assets/9da825af-0ff5-46ee-aab3-6a84f73e27d0">
+<img width="1440" alt="Screenshot 2024-07-17 at 6 46 51 PM" src="https://github.com/user-attachments/assets/ad63ac1f-d28a-4772-b6d9-07f69656bda0">
+<img width="1440" alt="Screenshot 2024-07-17 at 6 47 25 PM" src="https://github.com/user-attachments/assets/901fa171-9e87-4346-b330-ba02fb26a245">
+<img width="1439" alt="Screenshot 2024-07-17 at 6 47 04 PM" src="https://github.com/user-attachments/assets/37c0c2da-8092-4f20-a497-13e9fc90b2e8">
+<img width="1422" alt="Screenshot 2024-07-17 at 6 48 10 PM" src="https://github.com/user-attachments/assets/68c0d3ef-cf63-4a1a-8e1c-2aae4487f617">
+<img width="1322" alt="Screenshot 2024-07-17 at 6 57 30 PM" src="https://github.com/user-attachments/assets/ecb56b4b-ab89-4895-aa66-791eabe5e808">
+<img width="1433" alt="Screenshot 2024-07-17 at 6 59 59 PM" src="https://github.com/user-attachments/assets/559b9e2d-ba51-405c-b0ce-eab8737ac9c7">
+<img width="1439" alt="Screenshot 2024-07-17 at 6 49 21 PM" src="https://github.com/user-attachments/assets/bc5cab05-6443-48e5-a039-f472787fc95d">
 
 
 ### 🌟 KEY FEATURES
