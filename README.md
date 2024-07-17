@@ -81,11 +81,11 @@ That's it! The application should now be running locally on your machine.
 ## WHAT I LEARNT
 This project has been an incredible learning experience, pushing me to implement advanced functionalities and create a seamless user experience. Here are some highlights:   
 
-**Advanced Functionalities**: I've integrated real-time updates, infinite scroll, and content recommendations to ensure a dynamic and engaging user experience.   
-**Comprehensive Design**: Building a full-stack application required careful planning and design, from front-end interfaces with React to robust back-end systems using Node.js and Express.js.   
-**User-Centric Features**: Developing user profiles, friend connections, news feeds, and multimedia sharing has enhanced my understanding of user engagement and interaction.   
-**Database Management**: Working with MySQL Workbench for database design and management provided invaluable insights into data organization and retrieval.   
-**Authentication and Security**: Implementing JWT and bcrypt for secure authentication and data protection was a critical part of the project, ensuring user privacy and security.   
+1. **Advanced Functionalities**: I've integrated real-time updates, infinite scroll, and content recommendations to ensure a dynamic and engaging user experience.   
+2. **Comprehensive Design**: Building a full-stack application required careful planning and design, from front-end interfaces with React to robust back-end systems using Node.js and Express.js.   
+3. **User-Centric Features**: Developing user profiles, friend connections, news feeds, and multimedia sharing has enhanced my understanding of user engagement and interaction.   
+4. **Database Management**: Working with MySQL Workbench for database design and management provided invaluable insights into data organization and retrieval.   
+5. **Authentication and Security**: Implementing JWT and bcrypt for secure authentication and data protection was a critical part of the project, ensuring user privacy and security.   
 
 ## Contributing
 Contributions are welcome! If you have any suggestions or improvements, feel free to submit a pull request.
