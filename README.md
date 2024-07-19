@@ -32,7 +32,7 @@ A comprehensive social networking site with features that make it easy and engag
 
 
 ### 💻 TECHNOLOGY STACK
-**Frontend**: HTML, CSS, JavaScript, React (Hooks, Context API, React Query)   
+**Frontend**: HTML, SCSS, JavaScript, React (Hooks, Context API, React Query)   
 **Backend**: Node.js, Express.js   
 **Database**: MySQL Workbench   
 **Libraries**: Multer, Cors, Axios, CookieParser   
