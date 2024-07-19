@@ -44,13 +44,13 @@ A comprehensive social networking site with features that make it easy and engag
 Clone the project
 
 ```bash
-  git clone https://github.com/riyaarora03/CODTECH-task-2.git
+  git clone https://github.com/riyaarora03/social-media-platform.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd CODTECH-task-2
+  cd social-media-platform
 ```
 
 Split terminal   
